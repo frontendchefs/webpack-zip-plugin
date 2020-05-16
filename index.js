@@ -1,7 +1,11 @@
+const chalk = require('chalk');
+
 class WebpackZipPlugin {
     apply(compiler) {
         compiler.hooks.afterEmit.tap('WebpackZipPlugin', (stats) => {
-            console.log(stats.compilation.options.output);
-        })
+            console.log(chalk.green(stats.compilation.options.output));
+        });
     }
 }
+
+module.exports = WebpackZipPlugin;

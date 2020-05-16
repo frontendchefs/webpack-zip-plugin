@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/frontendchefs/webpack-zip-plugin/issues"
   },
-  "homepage": "https://github.com/frontendchefs/webpack-zip-plugin#readme"
+  "homepage": "https://github.com/frontendchefs/webpack-zip-plugin#readme",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  }
 }
