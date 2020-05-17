@@ -7,7 +7,7 @@ class WebpackZipPlugin {
             const filePath = stats.compilation.options.output.path;
             fs.readdir(filePath, (error, files) => {
                 files.forEach(file => {
-                    console.log(file);
+                    const { size } = fs.readFile(path.resolve(filePath, file))
                 })
             })
         });
