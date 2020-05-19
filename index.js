@@ -28,9 +28,6 @@ class WebpackZipPlugin {
         archive.finalize();
       });
     });
-    // compiler.hooks.afterEmit.tap('SimpleWebpackPlugin', (compilation) => {
-    //   archive.finalize();
-    // });
   }
 }
 module.exports = WebpackZipPlugin;
