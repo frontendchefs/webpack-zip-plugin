@@ -5,7 +5,7 @@ const path = require('path');
 const archiver = require('archiver');
 const archive = archiver('zip', {
   zip: true,
-  zlib: { level: 9 }, // Sets the compression level.
+  zlib: { level: 9 },
 });
 class WebpackZipPlugin {
   constructor(options) {
