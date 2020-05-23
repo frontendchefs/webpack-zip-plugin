@@ -1,5 +1,5 @@
 {
-  "name": "webpack-zip-plugin",
+  "name": "zip-webpack-assets-plugin",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
