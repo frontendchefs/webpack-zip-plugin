@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/frontendchefs/webpack-zip-plugin.git"
   },
-  "keywords": [],
+  "keywords": ["webpack", "webpack plugin", "zip plugin"],
   "author": "",
   "license": "ISC",
   "bugs": {
