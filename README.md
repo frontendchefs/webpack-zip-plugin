@@ -6,4 +6,13 @@
 
 ## Installation Instructions
 
-1. `yarn add webpack-zip-plugin`
+1. `yarn add zip-webpack-assets-plugin`
+
+## How to use?
+
+```
+    const ZipPlugin = require('zip-webpack-assets-plugin');
+    new ZipPlugin({
+        include: [],
+    });
+```
