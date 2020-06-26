@@ -7,6 +7,7 @@
 ## Installation Instructions
 
 1. `yarn add zip-webpack-assets-plugin`
+2. Requires webpack version >= 4
 
 ## How to use?
 
